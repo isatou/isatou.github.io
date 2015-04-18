@@ -1535,7 +1535,7 @@ border: solid black solid;
 
 /* Banner */
 
-	/*#banner {
+	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
 		background-image: url("../images/shutterstock_227613772.jpg");
@@ -1546,7 +1546,7 @@ border: solid black solid;
 		position: relative;
 		text-align: center;
 		z-index: 21;
-	}*/
+	}
 
 		/*#banner:before {
 			content: '';
