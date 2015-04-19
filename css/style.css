@@ -1537,7 +1537,7 @@ border: solid black solid;
 
 	#banner {
 		/*background-attachment: fixed;
-		background-color: #272833;*/
+		background-color: #272833;
 		background-image: url("../images/shutterstock_227613772.jpg");
 		background-position: center center;
 		background-size: cover;
@@ -1545,7 +1545,7 @@ border: solid black solid;
 		min-height: 100vh;
 		position: relative;
 		text-align: center;
-		z-index: 21;
+		z-index: 21;*/
 	}
 
 		/*#banner:before {
