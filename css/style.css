@@ -1532,7 +1532,6 @@ border: solid black solid;
 		background: transparent;
 		box-shadow: none;
 		position: absolute;
-content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 	}
 
 /* Banner */ 
@@ -1547,10 +1546,6 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 		position: relative;
 		text-align: center;
 		z-index: 21;
-
-		content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
-
-
 	}
 
 
@@ -1569,10 +1564,6 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 		position: relative;
 		text-align: center;
 		z-index: 21;
-
-		content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
-
-
 	}
 }
 
@@ -1608,13 +1599,11 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
-			content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 		}
  
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
-				content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 			}
 
 
