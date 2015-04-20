@@ -1576,13 +1576,13 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 	}
 }
 
-		/*#banner:before {
+		#banner:before {
 			content: '';
 			display: inline-block;
 			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
-		}*/
+		}
 
 /* fix for the ipad */
 @media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
