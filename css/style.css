@@ -1546,19 +1546,17 @@ border: solid black solid;
 		position: relative;
 		text-align: center;
 		z-index: 21;
-
-content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
+		content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 
 
 	}
 
 		#banner:before {
-			content: '';
+			/*content: '';*/
 			display: inline-block;
 			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
-content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 		}
 
 		#banner:after {
