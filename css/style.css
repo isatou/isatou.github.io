@@ -1540,10 +1540,10 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 @media (min-device-height : 768px) and (max-device-height : 1024px)  { 
 	#banner {
 		/*background-attachment: fixed;
-		background-color: #272833;
+		background-color: #272833;*/
 		background-image: url("../images/shutterstock_227613772.jpg");
 		background-position: center center;
-		background-size: cover;*/
+		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
