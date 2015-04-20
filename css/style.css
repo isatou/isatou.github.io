@@ -1590,6 +1590,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
+				content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 			}
 
 				#banner .content header h2 {
