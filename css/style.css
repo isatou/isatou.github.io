@@ -1554,8 +1554,8 @@ border: solid black solid;
 /* fix for the ipad */
 @media screen and (max-device-width : 768px)   { 
 	#banner {
-		/*background-attachment: fixed;
-		background-color: #272833;*/
+		background-attachment: fixed;
+		/*background-color: #272833;*/
 		background-image: url("../images/shutterstock_227613772.jpg");
 		background-position: center center;
 		background-size: cover;
