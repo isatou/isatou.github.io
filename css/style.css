@@ -1538,8 +1538,8 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 /* Banner */
 
 	#banner {
-		/*background-attachment: fixed;
-		background-color: #272833;*/
+		background-attachment: fixed;
+		/*background-color: #272833;*/
 		background-image: url("../images/shutterstock_227613772.jpg");
 		background-position: center center;
 		background-size: cover;
