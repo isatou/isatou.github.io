@@ -1584,6 +1584,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
+			content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 		}
 
 			#banner .content header {
