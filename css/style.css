@@ -1537,7 +1537,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 
 /* Banner */
 /* fix for the ipad */
-@media (min-device-height : 768px) and (max-device-height : 1024px)  { 
+@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
 	#banner {
 		/*background-attachment: fixed;
 		background-color: #272833;*/
@@ -1565,7 +1565,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 		}*/
 
 /* fix for the ipad */
-@media (min-device-height : 768px) and (max-device-height : 1024px)  { 
+@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
 		#banner:after {
 			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
@@ -1584,7 +1584,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 
 
 /* fix for the ipad */
-@media (min-device-height : 768px) and (max-device-height : 1024px)  { 
+@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
 		#banner .content {
 			display: inline-block;
 			margin-right: 1%;
@@ -1599,7 +1599,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 }
 
 /* fix for the ipad */
-@media (min-device-height : 768px) and (max-device-height : 1024px)  { 
+@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
