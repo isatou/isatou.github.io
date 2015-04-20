@@ -1548,10 +1548,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 		position: relative;
 		text-align: center;
 		z-index: 21;
-  width: 50vmin;
-  height: 50vmax;
-  top: calc(50vh - 100px);
-  left: calc(50vw - 100px);
+
 		content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 
 
