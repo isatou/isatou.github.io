@@ -1531,6 +1531,7 @@ border: solid black solid;
 		background: transparent;
 		box-shadow: none;
 		position: absolute;
+content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 	}
 
 /* Banner */
