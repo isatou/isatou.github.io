@@ -1536,7 +1536,8 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 	}
 
 /* Banner */
-
+/* fix for the ipad */
+@media (min-device-width : 768px) and (max-device-width : 1024px)  { 
 	#banner {
 		/*background-attachment: fixed;
 		background-color: #272833;
@@ -1553,6 +1554,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 
 
 	}
+}
 
 		/*#banner:before {
 			content: '';
