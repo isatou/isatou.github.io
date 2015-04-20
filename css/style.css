@@ -1584,8 +1584,6 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			width: 1%;
 		}
 
-/* fix for the ipad */
-@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
 		#banner:after {
 			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
@@ -1600,11 +1598,7 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			top: 0;
 			width: 100%;
 		}
-}
-
-
-/* fix for the ipad */
-@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
+ 
 		#banner .content {
 			display: inline-block;
 			margin-right: 1%;
@@ -1616,16 +1610,13 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 			z-index: 1;
 			content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 		}
-}
-
-/* fix for the ipad */
-@media screen and (min-device-height : 768px) and (max-device-height : 1024px)  { 
+ 
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
 				content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50vh - 100px); left: calc(50vw - 100px);';
 			}
-		}
+
 
 				#banner .content header h2 {
 					font-size: 2.5em;
@@ -1719,56 +1710,3 @@ content: 'viewport-units-buggyfill; width: 50vmin; height: 50vmax; top: calc(50v
 				#footer .copyright li a {
 					color: inherit;
 				}
-
-
-
-
-
-
-/* fix for the ipad */
-@media (min-device-width : 768px) and (max-device-width : 1024px)  { 
-    #home {
-        background-attachment: scroll;
-        /* default height landscape*/
-        height: 768px;
-    }
-
-    .ipadfix{
-        height: 300px !important;
-    }
-    img.ipadfix{
-        width:100% !important; 
-        height:auto !important;
-    }
-}
-/* fix for the ipad */
-@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait) {
-    #home {
-        /* default height landscape*/
-        height: 1024px;
-    }
-} 
-
-/* fix for the iphone */
-@media (min-device-width : 320px) and (max-device-width : 568px)  { 
-    #home {
-        background-attachment: scroll;
-        /* default height landscape*/
-        height: 320px;
-    }
-
-    .ipadfix{
-        height: 150px !important;
-    }
-    img.ipadfix{
-        width:100% !important; 
-        height:auto !important;
-    }
-}
-/* fix for the iphone */
-@media (min-device-width : 320px) and (max-device-width : 568px) and (orientation: portrait) {
-    #home {
-        /* default height landscape*/
-        height: 568px;
-    }
-} 
