@@ -1573,14 +1573,25 @@ border: solid black solid;
 	}
 }
 
-/*		#banner:before {
+/* fix for the ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)   { 
+		#banner:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			width: 1%;
+		}
+}
+
+		#banner:before {
 			content: '';
 			display: inline-block;
 			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
 		}
-*/
+
 
 		#banner:after {
 			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
