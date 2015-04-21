@@ -1573,6 +1573,15 @@ border: solid black solid;
 	}
 }
 
+
+		#banner:before {
+			content: '';
+			display: inline-block;
+			height: 100vh;
+			vertical-align: middle;
+			width: 1%;
+		}
+
 /* fix for the ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)   { 
 		#banner:before {
@@ -1583,14 +1592,6 @@ border: solid black solid;
 			width: 1%;
 		}
 }
-
-		#banner:before {
-			content: '';
-			display: inline-block;
-			height: 100vh;
-			vertical-align: middle;
-			width: 1%;
-		}
 
 
 		#banner:after {
